@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classic Rock Motel Customer</title>
+    <style>
+        /* Basic styles for layout */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            background-color: #f0f0f0;
+        }
+        header, footer {
+            background-color: #333;
+            color: white;
+            padding: 1em;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 1em;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            flex: 1;
+            padding: 1em;
+        }
+        section {
+            margin-bottom: 2em;
+        }
+        /* Styles for the summary section */
+        .summary {
+            background-color: white;
+            padding: 1em;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .summary h2 {
+            margin-top: 0;
+        }
+        .summary p {
+            margin: 0.5em 0;
+        }
+        /* Styles for the detailed information section */
+        .detailed-info {
+            background-color: white;
+            padding: 1em;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .detailed-info h2 {
+            margin-top: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+    <main>
+        <section id="welcome">
+            <h1>The Classic Rock Motel</h1>
+            <p>Have a rockin' stay!</p>
+        </section>
+        <section id="customer-info" class="summary">
+            <h2>Customer Summary</h2>
+        </section>
+        <section id="detailed-info" class="detailed-info">
+            <h2>Detailed Description</h2>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Classic Rock Motel Inc. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
